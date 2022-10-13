@@ -1,23 +1,28 @@
 import React from "react";
 import CoursesContent from "./CoursesContent";
-
+import html from "../../../assets/img/js.jpg"
+import c from "../../../assets/img/C-Complete-Course-For-Beginners-2021.png"
+import angular from "../../../assets/img/angular-JS-online-training-nareshit.jpg"
+import react from "../../../assets/img/js.jpg"
+import Kotlin from "../../../assets/img/js.jpg"
+import vue from "../../../assets/img/js.jpg"
 const row = [
   {
-    img: "./src/assets/img/js.jpg",
+    img: html,
     h5: "$99.00",
     h3: "The Complete HTML CSS JS Course 2022",
     h6: "40 hours",
     p: "9654 Reviews",
   },
   {
-    img: "./src/assets/img/C-Complete-Course-For-Beginners-2021.png",
+    img: c,
     h5: "$60.00",
     h3: "C# Complete Course For Beginners 2021",
     h6: "23 hours 10 minutes",
     p: "460 Reviews",
   },
   {
-    img: "./src/assets/img/angular-JS-online-training-nareshit.jpg",
+    img: angular,
     h5: "$50.00",
     h3: "Complete AngularJS Course 2022",
     h6: "09 hours 20 minutes",

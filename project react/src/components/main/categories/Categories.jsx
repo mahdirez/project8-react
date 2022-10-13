@@ -1,24 +1,27 @@
 import React from "react";
 import CategoriesBox from "./CategoriesBox";
-
+import Cate1 from "../../../assets/img/cate1.png"
+import cate2 from "../../../assets/img/cate2.png"
+import cate3 from "../../../assets/img/cate3.png"
+import cate4 from "../../../assets/img/cate4.png"
 const content = [
   {
-    img: "./src/assets/img/cate1.png",
+    img: Cate1,
     h3: "dolphin Development",
     p: "1 Courses",
   },
   {
-    img: "./src/assets/img/cate2.png",
+    img: cate2,
     h3: "Angular Development",
     p: "5 Courses",
   },
   {
-    img: "./src/assets/img/cate3.png",
+    img: cate3,
     h3: "Node Js Development",
     p: "10 Courses",
   },
   {
-    img: "./src/assets/img/cate4.png",
+    img: cate4,
     h3: "Swift Development",
     p: "7 Courses",
   },

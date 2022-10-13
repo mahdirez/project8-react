@@ -1,5 +1,5 @@
 import React from 'react'
-
+import homeImg from '../../../assets/img/home.png'
 export default function Home() {
   return (
     <section className="home" id="home">
@@ -13,7 +13,7 @@ export default function Home() {
         </div>
       </div>
       <div className="home-img">
-        <img src="./src/assets/img/home.png" />
+        <img src={homeImg} />
       </div>
     </section>
   )

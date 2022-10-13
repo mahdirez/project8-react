@@ -1,10 +1,10 @@
 import React from 'react'
-
+import aboutSrc from '../../../assets/img/about.png';
 export default function About() {
   return (
     <section className="about" id="about">
 		<div className="about-img">
-			<img src="./src/assets/img/about.png"/>
+			<img src={aboutSrc}/>
 		</div>
 
 		<div className="about-text">
